@@ -1,9 +1,10 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showString("hi")
-})
-input.onGesture(Gesture.Shake, function () {
-	
-})
-basic.forever(function () {
-	
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        # . . # .
+        # . . # .
+        # # # # .
+        # . . # .
+        # . . # .
+        `)
+    basic.showIcon(IconNames.Heart)
 })
