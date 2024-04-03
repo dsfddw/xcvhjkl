@@ -1,5 +1,9 @@
-led.unplot(66, 33)
-music.play(music.stringPlayable("C D E F G F E D ", 120), music.PlaybackMode.UntilDone)
+input.onButtonPressed(Button.A, function () {
+	
+})
+input.onGesture(Gesture.Shake, function () {
+    basic.showString("hi")
+})
 basic.forever(function () {
 	
 })
